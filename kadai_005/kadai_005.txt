@@ -1,0 +1,2 @@
+0a1b36d (HEAD -> main) 日本語訳を追加
+99e5b83 hello_world.txtを追加
