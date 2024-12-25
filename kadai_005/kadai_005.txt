@@ -1,0 +1,41 @@
+C:\Users\flow2\Documents\作業\samurai_terakoya\課題>mkdir git_tutorial
+
+C:\Users\flow2\Documents\作業\samurai_terakoya\課題>cd git_tutorial
+
+C:\Users\flow2\Documents\作業\samurai_terakoya\課題\git_tutorial>git init
+Initialized empty Git repository in C:/Users/flow2/Documents/菴懈･ｭ/samurai_terakoya/隱ｲ鬘・git_tutorial/.git/
+
+C:\Users\flow2\Documents\作業\samurai_terakoya\課題\git_tutorial>git add hello_world.txt  
+
+C:\Users\flow2\Documents\作業\samurai_terakoya\課題\git_tutorial>git commit -m "hello_world.txtを追加" 
+[main (root-commit) 93fbe63] hello_world.txt繧定ｿｽ蜉
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+C:\Users\flow2\Documents\作業\samurai_terakoya\課題\git_tutorial>git commit -m "日本語訳を追加" 
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello_world.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\flow2\Documents\作業\samurai_terakoya\課題\git_tutorial>git status
+On branch main
+nothing to commit, working tree clean
+
+C:\Users\flow2\Documents\作業\samurai_terakoya\課題\git_tutorial>git log
+commit 5513d8ebcda4df379afd25af1149ad4f195ed563 (HEAD -> main)
+Author: flow2670 <flow2670@gmail.com>
+Date:   Wed Dec 25 15:57:41 2024 +0900
+
+    日本語訳を追加
+
+commit 93fbe63dac1bd0c57b7433c9ec3d9f689a4feae8
+Author: flow2670 <flow2670@gmail.com>
+Date:   Wed Dec 25 15:56:34 2024 +0900
+
+    hello_world.txtを追加
+
+C:\Users\flow2\Documents\作業\samurai_terakoya\課題\git_tutorial>  
